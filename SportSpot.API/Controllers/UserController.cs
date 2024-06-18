@@ -26,7 +26,7 @@ public class UserController(IUserService userService) : ControllerBase
     [HttpPost("Register")]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status409Conflict)]
-    [ProducesResponseType(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public ActionResult AddUser([FromBody] RegisterUserRequest registerUserRequest)
     {
         try
@@ -48,7 +48,7 @@ public class UserController(IUserService userService) : ControllerBase
         {
             return BadRequest(e.Message); 
         } 
-        return Created(); 
+        return NoContent(); 
     }
     [HttpGet("Login")]
     public OkObjectResult Login([FromBody] LoginUserRequest loginUserRequest)

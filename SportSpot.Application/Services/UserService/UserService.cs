@@ -18,7 +18,6 @@ public class UserService(IImageRepository imageRepository, IUserRepository userR
     {
         using var transaction = new TransactionScope();
         var verifyUser = userRepository.GetUserByEmailOrUsername(username);
-        Console.WriteLine(verifyUser.Name + "dsada");
         if (verifyUser != null)
         {
             throw new ArgumentException("User already exists");
