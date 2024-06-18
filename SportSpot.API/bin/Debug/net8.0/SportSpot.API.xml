@@ -16,8 +16,19 @@
             Date: Date, format: yyyy - mm - dd, min value today - 100 years, max value today &#xA;
             Gender: Male or Female &#xA;
             ImageLink: Optional &#xA;
+            Interests: List of strings, Optional &#xA;
             </param>>
             <returns>Ok</returns>
+        </member>
+        <member name="M:SportSpot.API.Controllers.UserController.Login(SportSpot.API.Contracts.LoginUserRequest)">
+            <summary>
+            Login user using JWT token and Cookies
+            </summary>
+            <param name="loginUserRequest">
+            EmailOrUsername: string &#xA;
+            Password: string &#xA;
+            </param>
+            <returns></returns>
         </member>
     </members>
 </doc>

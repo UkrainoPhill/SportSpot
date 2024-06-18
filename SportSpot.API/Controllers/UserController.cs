@@ -21,6 +21,7 @@ public class UserController(IUserService userService) : ControllerBase
     /// Date: Date, format: yyyy - mm - dd, min value today - 100 years, max value today &#xA;
     /// Gender: Male or Female &#xA;
     /// ImageLink: Optional &#xA;
+    /// Interests: List of strings, Optional &#xA;
     /// </param>>
     /// <returns>Ok</returns>
     [HttpPost("Register")]
@@ -50,11 +51,28 @@ public class UserController(IUserService userService) : ControllerBase
         } 
         return NoContent(); 
     }
-    [HttpGet("Login")]
-    public OkObjectResult Login([FromBody] LoginUserRequest loginUserRequest)
-    { 
-        var token = userService.Login(loginUserRequest.emailOrUsername, loginUserRequest.password);
-        HttpContext.Response.Cookies.Append("access_token", token);
-        return Ok(token);
+    /// <summary>
+    /// Login user using JWT token and Cookies
+    /// </summary>
+    /// <param name="loginUserRequest">
+    /// EmailOrUsername: string &#xA;
+    /// Password: string &#xA;
+    /// </param>
+    /// <returns></returns>
+    [HttpPost("Login")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public ActionResult<string> Login([FromBody] LoginUserRequest loginUserRequest)
+    {
+        try
+        {
+            var token = userService.Login(loginUserRequest.emailOrUsername, loginUserRequest.password);
+            HttpContext.Response.Cookies.Append("access_token", token);
+            return Ok(token);
+        }
+        catch (ArgumentException e)
+        {
+            return BadRequest(e.Message);
+        }
     }
 }

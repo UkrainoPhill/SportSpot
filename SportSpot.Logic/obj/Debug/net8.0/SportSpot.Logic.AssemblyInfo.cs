@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportSpot.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84e78ecb16a2d82a55eee79d7d52d086e1a445ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd0bd54f8ca21c8b0f739e69023a4733a2cbb158")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportSpot.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportSpot.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

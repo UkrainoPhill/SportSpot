@@ -42,7 +42,7 @@ public class UserService(IImageRepository imageRepository, IUserRepository userR
 
     public string Login(string emailOrUsername, string password)
     {
-        var user = userRepository.GetUserByEmailOrUsername(emailOrUsername);
+        var user = userRepository.GetUserByEmailOrUsername(emailOrUsername) ?? throw new ArgumentException("User not found");
         var isPasswordValid = passwordHasher.VerifyPassword(password, user.Password);
         if (isPasswordValid == false)
         {
