@@ -1,0 +1,17 @@
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Infrastructure.deps.json
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Infrastructure.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Infrastructure.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.csproj.AssemblyReference.cache
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.AssemblyInfoInputs.cache
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.AssemblyInfo.cs
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\refint\SportSpot.Infrastructure.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\ref\SportSpot.Infrastructure.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Logic.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Persistence.dll
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Logic.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Persistence.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.csproj.CopyComplete

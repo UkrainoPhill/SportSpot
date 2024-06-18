@@ -1,0 +1,14 @@
+D:\Workspace\C#\SportSpot\SportSpot.Logic\bin\Debug\net8.0\SportSpot.Logic.deps.json
+D:\Workspace\C#\SportSpot\SportSpot.Logic\bin\Debug\net8.0\SportSpot.Logic.runtimeconfig.json
+D:\Workspace\C#\SportSpot\SportSpot.Logic\bin\Debug\net8.0\SportSpot.Logic.dll
+D:\Workspace\C#\SportSpot\SportSpot.Logic\bin\Debug\net8.0\SportSpot.Logic.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.csproj.AssemblyReference.cache
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.AssemblyInfoInputs.cache
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.AssemblyInfo.cs
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.dll
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\refint\SportSpot.Logic.dll
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.genruntimeconfig.cache
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\ref\SportSpot.Logic.dll
