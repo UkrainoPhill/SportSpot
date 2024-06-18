@@ -23,7 +23,7 @@ public class User
     [Column("Description")]
     public string? Description { get; set; } 
     public Image Image { get; set; }
-    public List<InterestEnum> Interests { get; set; }
+    public List<InterestEnum>? Interests { get; set; }
     public List<Comment> Comments { get; set; }
     // TODO Friends and Blocked
     // public List<Friend> Friends { get; set; }

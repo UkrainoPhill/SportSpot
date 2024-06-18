@@ -90,7 +90,6 @@ namespace SportSpot.Persistence.Migrations
                         .HasColumnType("uuid");
 
                     b.Property<int[]>("Interests")
-                        .IsRequired()
                         .HasColumnType("integer[]");
 
                     b.Property<decimal>("Rating")
@@ -125,7 +124,6 @@ namespace SportSpot.Persistence.Migrations
                         .HasColumnName("Gender");
 
                     b.Property<int[]>("Interests")
-                        .IsRequired()
                         .HasColumnType("integer[]");
 
                     b.Property<string>("Name")

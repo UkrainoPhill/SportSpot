@@ -12,7 +12,7 @@ public class Spot
     public List<Image> Images { get; set; }
     public decimal Rating { get; set; }
     public List<Comment> Comments { get; set; }
-    public List<InterestEnum> Interests { get;set;}
+    public List<InterestEnum>? Interests { get;set;}
 
     public Spot()
     {
