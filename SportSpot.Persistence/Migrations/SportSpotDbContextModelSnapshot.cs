@@ -83,36 +83,15 @@ namespace SportSpot.Persistence.Migrations
                     b.ToTable("Images");
                 });
 
-            modelBuilder.Entity("SportSpot.Logic.Models.Interest", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<int>("InterestEnum")
-                        .HasColumnType("integer");
-
-                    b.Property<Guid>("SpotId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SpotId");
-
-                    b.HasIndex("Username");
-
-                    b.ToTable("Interests");
-                });
-
             modelBuilder.Entity("SportSpot.Logic.Models.Spot", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
+
+                    b.Property<int[]>("Interests")
+                        .IsRequired()
+                        .HasColumnType("integer[]");
 
                     b.Property<decimal>("Rating")
                         .HasColumnType("numeric");
@@ -144,6 +123,10 @@ namespace SportSpot.Persistence.Migrations
                     b.Property<bool>("Gender")
                         .HasColumnType("boolean")
                         .HasColumnName("Gender");
+
+                    b.Property<int[]>("Interests")
+                        .IsRequired()
+                        .HasColumnType("integer[]");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -205,25 +188,6 @@ namespace SportSpot.Persistence.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("SportSpot.Logic.Models.Interest", b =>
-                {
-                    b.HasOne("SportSpot.Logic.Models.Spot", "Spot")
-                        .WithMany("Interests")
-                        .HasForeignKey("SpotId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SportSpot.Logic.Models.User", "User")
-                        .WithMany("Interests")
-                        .HasForeignKey("Username")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Spot");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("SportSpot.Logic.Models.Comment", b =>
                 {
                     b.Navigation("Images");
@@ -234,8 +198,6 @@ namespace SportSpot.Persistence.Migrations
                     b.Navigation("Comments");
 
                     b.Navigation("Images");
-
-                    b.Navigation("Interests");
                 });
 
             modelBuilder.Entity("SportSpot.Logic.Models.User", b =>
@@ -244,8 +206,6 @@ namespace SportSpot.Persistence.Migrations
 
                     b.Navigation("Image")
                         .IsRequired();
-
-                    b.Navigation("Interests");
                 });
 #pragma warning restore 612, 618
         }

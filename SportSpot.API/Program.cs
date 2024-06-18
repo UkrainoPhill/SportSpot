@@ -1,5 +1,7 @@
+using System.Reflection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using SporSpot.Infrastructure.JwtProvider;
 using SporSpot.Infrastructure.JWTProvider;
 using SporSpot.Infrastructure.PasswordHasher;
@@ -19,14 +21,27 @@ public class Program
         builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection(nameof(JwtOptions)));
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen(options =>
+        {
+            options.SwaggerDoc("v1", new OpenApiInfo { 
+                Title = "SportSpot API", 
+                Version = "v1", 
+                Description = "API for SportSpot application",
+                
+            });
+            options.MapType<DateOnly>(() => new OpenApiSchema { 
+                Type = "string",
+                Format = "date" });
+            var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+            options.IncludeXmlComments(xmlPath);
+        });
         builder.Services.AddScoped<IImageRepository, ImageRepository>();
         builder.Services.AddScoped<IImageService, ImageService>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
         builder.Services.AddScoped<IJwtProvider, JwtProvider>();
-        
         builder.Services.AddDbContext<SportSpotDbContext>(options =>
         {
             options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(SportSpotDbContext)) + ";Include Error Detail=True");

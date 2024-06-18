@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SportSpot.API</name>
+    </assembly>
+    <members>
+        <member name="M:SportSpot.API.Controllers.UserController.AddUser(SportSpot.API.Contracts.RegisterUserRequest)">
+            <summary>
+            Registers a new user
+            </summary>
+            <param name="registerUserRequest">
+            Username: string max value 20 min value 2 &#xA;
+            Email: string max value 50 min value 5 &#xA;
+            Name: string max value 50 min value 2 &#xA;
+            Surname: string max value 50 min value 2 &#xA;
+            Date: Date, format: yyyy - mm - dd, min value today - 100 years, max value today &#xA;
+            Gender: Male or Female &#xA;
+            ImageLink: Optional &#xA;
+            </param>>
+            <returns>Ok</returns>
+        </member>
+    </members>
+</doc>

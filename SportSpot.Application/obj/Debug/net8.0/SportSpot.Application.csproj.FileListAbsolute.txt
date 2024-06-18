@@ -19,3 +19,4 @@ D:\Workspace\C#\SportSpot\SportSpot.Application\bin\Debug\net8.0\SportSpot.Persi
 D:\Workspace\C#\SportSpot\SportSpot.Application\bin\Debug\net8.0\SportSpot.Persistence.pdb
 D:\Workspace\C#\SportSpot\SportSpot.Application\bin\Debug\net8.0\SportSpot.Infrastructure.dll
 D:\Workspace\C#\SportSpot\SportSpot.Application\bin\Debug\net8.0\SportSpot.Infrastructure.pdb
+D:\Workspace\C#\SportSpot\SportSpot.Application\obj\Debug\net8.0\SportSpot.Application.sourcelink.json

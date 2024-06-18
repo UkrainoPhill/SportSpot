@@ -15,3 +15,4 @@ D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Pe
 D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Logic.pdb
 D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\bin\Debug\net8.0\SportSpot.Persistence.pdb
 D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.csproj.CopyComplete
+D:\Workspace\C#\SportSpot\SportSpot.Infrastructure\obj\Debug\net8.0\SportSpot.Infrastructure.sourcelink.json

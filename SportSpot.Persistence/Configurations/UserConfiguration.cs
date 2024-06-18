@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using SportSpot.Logic;
 using SportSpot.Logic.Models;
 
 namespace SportSpot.Persistence.Configurations;
@@ -21,5 +23,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
         builder.HasMany(u => u.Comments)
             .WithOne(c => c.User)
             .HasForeignKey(c => c.Username);
+        builder.Property(u => u.Interests)
+            .HasConversion<string>();
     }
 }

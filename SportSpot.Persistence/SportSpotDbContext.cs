@@ -9,7 +9,6 @@ public class SportSpotDbContext(DbContextOptions<SportSpotDbContext> options) : 
     public DbSet<Spot> Spots { get; set; }
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Image> Images { get; set; }
-    public DbSet<Interest> Interests { get; set; }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -17,6 +16,5 @@ public class SportSpotDbContext(DbContextOptions<SportSpotDbContext> options) : 
         modelBuilder.ApplyConfiguration(new Configurations.SpotConfiguration());
         modelBuilder.ApplyConfiguration(new Configurations.CommentConfiguration());
         modelBuilder.ApplyConfiguration(new Configurations.ImageConfiguration());
-        modelBuilder.ApplyConfiguration(new Configurations.InterestConfiguration());
     }
 }

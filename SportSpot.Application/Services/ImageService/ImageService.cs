@@ -1,5 +1,4 @@
 ﻿using System.Transactions;
-using SportSpot.Logic.Models;
 using SportSpot.Persistence.Repositories.ImageRepository;
 
 namespace SportSpot.Application.Services.ImageService;

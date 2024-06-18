@@ -12,3 +12,4 @@ D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\refint\SportSpot.Logi
 D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.pdb
 D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.genruntimeconfig.cache
 D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\ref\SportSpot.Logic.dll
+D:\Workspace\C#\SportSpot\SportSpot.Logic\obj\Debug\net8.0\SportSpot.Logic.sourcelink.json

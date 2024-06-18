@@ -1,4 +1,5 @@
-﻿using SportSpot.Logic.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using SportSpot.Logic.Models;
 
 namespace SportSpot.Persistence.Repositories.UserRepository;
 
@@ -14,6 +15,7 @@ public class UserRepository(SportSpotDbContext context) : IUserRepository
     }
     public User GetUserByEmailOrUsername(string emailOrUsername)
     {
-        return context.Users.FirstOrDefault(user => user.Email == emailOrUsername || user.Username == emailOrUsername) ?? throw new InvalidOperationException();
+        var user = _context.Users.SingleOrDefault(c => c.Email == emailOrUsername || c.Username == emailOrUsername);
+        return user;
     }
 }
