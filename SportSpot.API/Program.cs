@@ -48,11 +48,8 @@ public class Program
             options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(SportSpotDbContext)) + ";Include Error Detail=True");
         });
         var app = builder.Build();
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
+        app.UseSwagger();
+        app.UseSwaggerUI();
         app.UseHttpsRedirection();
         app.UseCookiePolicy(new CookiePolicyOptions()
         {
