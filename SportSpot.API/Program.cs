@@ -1,11 +1,12 @@
 using System.Reflection;
+using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using SporSpot.Infrastructure.JwtProvider;
 using SporSpot.Infrastructure.JWTProvider;
 using SporSpot.Infrastructure.PasswordHasher;
-using SportSpot.Application.Services.ImageService;
+using SportSpot.API.Extensions;
 using SportSpot.Application.Services.UserService;
 using SportSpot.Persistence;
 using SportSpot.Persistence.Repositories.ImageRepository;
@@ -21,6 +22,7 @@ public class Program
         builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection(nameof(JwtOptions)));
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddApiAuthentication(builder.Configuration);
         builder.Services.AddSwaggerGen(options =>
         {
             options.SwaggerDoc("v1", new OpenApiInfo { 
@@ -37,7 +39,6 @@ public class Program
             options.IncludeXmlComments(xmlPath);
         });
         builder.Services.AddScoped<IImageRepository, ImageRepository>();
-        builder.Services.AddScoped<IImageService, ImageService>();
         builder.Services.AddScoped<IUserRepository, UserRepository>();
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
@@ -53,8 +54,14 @@ public class Program
             app.UseSwaggerUI();
         }
         app.UseHttpsRedirection();
-        app.UseAuthorization();
+        app.UseCookiePolicy(new CookiePolicyOptions()
+        {
+            MinimumSameSitePolicy = SameSiteMode.Strict,
+            Secure = CookieSecurePolicy.Always,
+            HttpOnly = HttpOnlyPolicy.Always
+        });
         app.UseAuthentication();
+        app.UseAuthorization();
         app.MapControllers();
         app.Run();
     }

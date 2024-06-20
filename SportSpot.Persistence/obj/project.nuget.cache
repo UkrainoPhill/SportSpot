@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1uK/GuDVePdPIzznspW11bj7hobuHOF6cwrWDF2d129Fmf6sBF40HagLMrhlthuaBGt8V3FzRM1qoMii1aKNOw==",
+  "dgSpecHash": "rzKIxVbsNkvLPvbUJ8sWTVjF3I1neIB+PZKrgnkdhTvy6PIr4/WQRox6Jgvnmef9oE38vaTs+QLAsCAQxaHinw==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\C#\\SportSpot\\SportSpot.Persistence\\SportSpot.Persistence.csproj",
+  "projectFilePath": "D:\\Workspace\\C#\\SportSpot2\\SportSpot\\SportSpot.Persistence\\SportSpot.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данило\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
     "C:\\Users\\Данило\\.nuget\\packages\\entityframework.metadata\\1.0.2\\entityframework.metadata.1.0.2.nupkg.sha512",

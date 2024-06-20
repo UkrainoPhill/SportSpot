@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Yi4kCq86ZCKWx5cKo9m71O/6dPhyH919BncBZimqmD8F6kie0YOwFYI9QbwZkowOPhg2/8u9L2uHU506dlynA==",
+  "dgSpecHash": "HSo2WvgMrgxSfm8rO8RWI0ernhpDEoqxPmvqky5QcluFDh+9nQEooeJFV77rfI3q+aEJ65Nr/ixt0gRToupxkg==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\C#\\SportSpot\\SportSpot.API\\SportSpot.API.csproj",
+  "projectFilePath": "D:\\Workspace\\C#\\SportSpot2\\SportSpot\\SportSpot.API\\SportSpot.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данило\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Данило\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",

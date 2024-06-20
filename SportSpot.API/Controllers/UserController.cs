@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using SportSpot.API.Contracts;
 using SportSpot.Application.Services.UserService;
@@ -74,5 +75,12 @@ public class UserController(IUserService userService) : ControllerBase
         {
             return BadRequest(e.Message);
         }
+    }
+
+    [HttpGet("Get")] 
+    [Authorize]
+    public ActionResult Get()
+    {
+        return Ok("Hello");
     }
 }
