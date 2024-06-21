@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4XCeA6++ZwEciUd/0IRlB8eE2sdzWqYiCjlsODbONJ7G17XBrJLs7dzJxG41hRghqHY+6kLl/7YeONVdeRw3A==",
+  "dgSpecHash": "LjYTi0/50I0qk8y0GdDT8SfO3D38V1fWWxH7hQNxJsOf3xXcvdR6zAY4ZTIwJJrLqT97SGugEkV/aFW3eTQkDA==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\C#\\SportSpot2\\SportSpot\\SportSpot.Logic\\SportSpot.Logic.csproj",
+  "projectFilePath": "D:\\Workspace\\C#\\SportSpot\\SportSpot.Logic\\SportSpot.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данило\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Данило\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

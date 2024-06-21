@@ -23,6 +23,7 @@ public class UserController(IUserService userService) : ControllerBase
     /// Gender: Male or Female &#xA;
     /// ImageLink: Optional &#xA;
     /// Interests: List of strings, Optional &#xA;
+    /// Can`t create user, wtih username that represents someone email &#xA;
     /// </param>>
     /// <returns>Ok</returns>
     [HttpPost("Register")]

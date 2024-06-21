@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportSpot.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+271ba1f49ee7ca538fe421225c5c5a61c93020f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e76c6870c206cc40b2b158e7e42d62c87c37829a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportSpot.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportSpot.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

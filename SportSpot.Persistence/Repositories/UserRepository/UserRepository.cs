@@ -16,4 +16,16 @@ public class UserRepository(SportSpotDbContext context) : IUserRepository
         var user = context.Users.SingleOrDefault(c => c.Email == emailOrUsername || c.Username == emailOrUsername);
         return user;
     }
+
+    public User GetUserByEmail(string email)
+    {
+        var user = context.Users.SingleOrDefault(c => c.Email == email);
+        return user;
+    }
+    
+    public User GetUserByUsername(string username)
+    {
+        var user = context.Users.SingleOrDefault(c => c.Username == username);
+        return user;
+    }
 }

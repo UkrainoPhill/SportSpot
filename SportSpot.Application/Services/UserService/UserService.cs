@@ -23,7 +23,27 @@ public class UserService(IImageRepository imageRepository, IUserRepository userR
         {
             throw new ArgumentException("User already exists");
         }
-
+        var verifyEmail = userRepository.GetUserByEmail(email);
+        if (verifyEmail != null)
+        {
+            if (verifyEmail.Email == username)
+            {
+                throw new ArgumentException("Not valid username");
+            }
+        }
+        var verifyUsername = userRepository.GetUserByUsername(username);
+        if (verifyUsername != null)
+        {
+            if (verifyUsername.Username == email)
+            {
+                throw new ArgumentException("Not valid email");
+            }
+        }
+        var checkUniqueEmail = userRepository.GetUserByEmail(email);
+        if (checkUniqueEmail != null)
+        {
+            throw new ArgumentException("Email already exists");
+        }
         Image image;
         if (string.IsNullOrEmpty(imageLink))
         {

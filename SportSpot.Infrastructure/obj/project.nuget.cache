@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/1zWE68wssqmQTTnpzCRG5Bc8WVAJeXHkBfeNnngkLRNYojnBF8a6QYFfMDu3hHzsipoxrPVX+FFhyvKrU6ww==",
+  "dgSpecHash": "UxUjuVGgU0BSygm6skbNgd4UqJIeslN9dZMLPKSzMhGqyMMJId/KApUnoykruGcDuzer51ZUGB7PRCr5L0ICxA==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\C#\\SportSpot2\\SportSpot\\SportSpot.Infrastructure\\SportSpot.Infrastructure.csproj",
+  "projectFilePath": "D:\\Workspace\\C#\\SportSpot\\SportSpot.Infrastructure\\SportSpot.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Данило\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Данило\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",
