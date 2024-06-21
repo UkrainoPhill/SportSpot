@@ -1,4 +1,5 @@
-﻿using System.Transactions;
+﻿using System.Net.Mime;
+using System.Transactions;
 using Microsoft.IdentityModel.Tokens;
 using SporSpot.Infrastructure.JwtProvider;
 using SporSpot.Infrastructure.PasswordHasher;
@@ -22,7 +23,19 @@ public class UserService(IImageRepository imageRepository, IUserRepository userR
         {
             throw new ArgumentException("User already exists");
         }
-        var image = string.IsNullOrEmpty(imageLink) ? imageRepository.AddImage("https://i.ibb.co/YdBKQfT/150-1503941-user-windows-10-user-icon-png-transparent-png.png") : imageRepository.AddImage(imageLink);
+
+        Image image;
+        if (string.IsNullOrEmpty(imageLink))
+        {
+            image = Image.Create(
+                "https://i.ibb.co/YdBKQfT/150-1503941-user-windows-10-user-icon-png-transparent-png.png");
+            imageRepository.AddImage(image);
+        }
+        else
+        {
+            image = Image.Create(imageLink);
+            imageRepository.AddImage(image);
+        }
         bool gender = stringGender switch
         {
             "Male" => true,

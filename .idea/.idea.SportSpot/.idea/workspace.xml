@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcc2281d-fc8e-420d-a455-6f780b19c2e9" name="Changes" comment="login fix">
+    <list default="true" id="dcc2281d-fc8e-420d-a455-6f780b19c2e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SportSpot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SportSpot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportSpot.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/bin/Debug/net8.0/SportSpot.API.pdb" afterDir="false" />
@@ -26,13 +25,14 @@
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/SportSpot.API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/ref/SportSpot.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/ref/SportSpot.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/refint/SportSpot.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/Debug/net8.0/refint/SportSpot.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Application/Services/UserService/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/Services/UserService/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/bin/Debug/net8.0/SportSpot.Infrastructure.dll" afterDir="false" />
@@ -44,12 +44,12 @@
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/SportSpot.Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/ref/SportSpot.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/ref/SportSpot.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/refint/SportSpot.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/Debug/net8.0/refint/SportSpot.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/bin/Debug/net8.0/SportSpot.Logic.dll" afterDir="false" />
@@ -64,6 +64,7 @@
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/SportSpot.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/SportSpot.Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/ref/SportSpot.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/ref/SportSpot.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/refint/SportSpot.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/Debug/net8.0/refint/SportSpot.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/bin/Debug/net8.0/SportSpot.Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/bin/Debug/net8.0/SportSpot.Logic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/bin/Debug/net8.0/SportSpot.Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/bin/Debug/net8.0/SportSpot.Logic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/SportSpot.Logic.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/SportSpot.Logic.AssemblyInfo.cs" afterDir="false" />
@@ -73,6 +74,9 @@
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/SportSpot.Logic.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/SportSpot.Logic.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/ref/SportSpot.Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/ref/SportSpot.Logic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/refint/SportSpot.Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/obj/Debug/net8.0/refint/SportSpot.Logic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Logic/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Logic/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/Repositories/ImageRepository/IImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/Repositories/ImageRepository/IImageRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/Repositories/ImageRepository/ImageRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/Repositories/ImageRepository/ImageRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Logic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Logic.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Logic.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Logic.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/bin/Debug/net8.0/SportSpot.Persistence.dll" afterDir="false" />
@@ -85,6 +89,7 @@
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/SportSpot.Persistence.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/SportSpot.Persistence.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/ref/SportSpot.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/ref/SportSpot.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/refint/SportSpot.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/obj/Debug/net8.0/refint/SportSpot.Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportSpot.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/SportSpot.Persistence/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +140,10 @@
   <component name="HttpClientSelectedEnvironments">
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
@@ -155,29 +160,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.SportSpot.API: IIS Express.executor": "Run",
-    ".NET Launch Settings Profile.SportSpot.API: http.executor": "Run",
-    "HTTP Request.a | #1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.SportSpot.API: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.SportSpot.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.a | #1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Данило\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Данило\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Данило\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Данило\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Данило\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Данило\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SportSpot.API: http">
     <configuration name="a | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/SportSpot.API/a.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -247,7 +252,8 @@
       <workItem from="1718729790663" duration="1003000" />
       <workItem from="1718731190594" duration="822000" />
       <workItem from="1718732682007" duration="1298000" />
-      <workItem from="1718905896710" duration="4664000" />
+      <workItem from="1718905896710" duration="5196000" />
+      <workItem from="1718953194308" duration="341000" />
     </task>
     <task id="LOCAL-00001" summary="do_stuff">
       <option name="closed" value="true" />
@@ -273,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718907868131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fast fix swagger1">
+      <option name="closed" value="true" />
+      <created>1718910888830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718910888831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +300,7 @@
     <MESSAGE value="do_stuff" />
     <MESSAGE value="Interest_optional" />
     <MESSAGE value="login fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="login fix" />
+    <MESSAGE value="fast fix swagger1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fast fix swagger1" />
   </component>
 </project>

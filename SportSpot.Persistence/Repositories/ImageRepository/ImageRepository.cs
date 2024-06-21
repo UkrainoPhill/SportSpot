@@ -10,9 +10,8 @@ public class ImageRepository(SportSpotDbContext context) : IImageRepository
         return image;
     }
     
-    public Image AddImage(string imageLink)
+    public Image AddImage(Image image)
     {
-        var image = Image.Create(imageLink);
         context.Images.Add(image);
         context.SaveChanges();
         return image;
